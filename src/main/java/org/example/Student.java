@@ -48,6 +48,6 @@ public class Student {
     // returns string with student's grade and their absences
     @Override
     public String toString() {
-        return name + " | Grade: " + grade + " | Days Absent: " + daysAbsent;
+        return name + " " + grade;
     }
 }
